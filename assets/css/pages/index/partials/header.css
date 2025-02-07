@@ -1,0 +1,54 @@
+header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-preto);
+}
+
+.logo{
+    /* border: 1px solid var(--cor-vermelho); */
+    width: 50%;
+}
+
+.logo_img{
+    width: 20%;
+    /* border: 1px solid var(--cor-vermelho); */
+}
+nav{
+    /* border: 1px solid var(--cor-branco); */
+    height: 80px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+nav a{
+    color: var(--cor-branco);
+    /* margin: 1px solid red; */
+    font-family: "Montserrat", serif;
+    font-size: 36px;
+    font-weight: bold;
+    transition: 0.3s;
+    
+    
+}
+
+nav a:hover{
+    color: var(--cor-azul-0);
+    opacity: 0.8;
+}
+
+.btn-login{
+    padding: 10px 20px;
+    background-color: var(--cor-azul-0);
+    border-radius: 24px;
+    
+}
+
+.btn-login:hover{
+    background-color: var(--cor-azul-1);
+    color: var(--cor-branco);
+}

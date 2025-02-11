@@ -1,17 +1,30 @@
+body{
+    padding-top: 80PX;
+    position: relative;
+}
+
+
 header{
+    position: fixed;
     height: 80px;
+    width: 100%;
+    top: 0;
     display: flex;
     align-items: center;
     background-color: var(--cor-preto);
+    z-index: 1;
+    
 }
 
 .logo{
     /* border: 1px solid var(--cor-vermelho); */
     width: 50%;
+    margin-left: 15px;
 }
 
 .logo_img{
     width: 20%;
+
     /* border: 1px solid var(--cor-vermelho); */
 }
 nav{
@@ -21,7 +34,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
 
@@ -29,7 +42,7 @@ nav a{
     color: var(--cor-branco);
     /* margin: 1px solid red; */
     font-family: "Montserrat", serif;
-    font-size: 36px;
+    font-size: 16px;
     font-weight: bold;
     transition: 0.3s;
     

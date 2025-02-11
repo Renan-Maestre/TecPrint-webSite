@@ -1,3 +1,18 @@
-main{
-    background-color: var(--cor-branco);
+.section-1{
+    
+    background-color: var(--cor-preto);
+    display: flex;
+    height: 100dvh
+}
+
+.section-1-image img{
+    width: 520px;
+    height: 520px;
+}
+
+.section-1-text {
+    color: var(--cor-branco);
+}
+.section-1-text h1{
+    color: var(--cor-azul-5);
 }
